@@ -10,8 +10,7 @@
     "bun start": "bun run src/index.js",
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fix",
-    "test:integration": "jest --config jest.integration.config.js --runInBand --verbose",
-    "test:unit": "jest --config jest.unit.config.js --runInBand --verbose"
+    "test:unit": "jest --config jest.unit.config.js"
   },
   "keywords": [],
   "author": "",
@@ -34,7 +33,7 @@
   ],
   "devDependencies": {
     "@types/bun": "latest",
-    "jest": "^30.0.0",
+    "jest": "^30.0.2",
     "nodemon": "^3.1.10",
     "supertest": "^7.1.1"
   },
